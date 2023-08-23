@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ConvertVC: UIViewController {
+/*class ConvertVC: UIViewController {
     
     @IBOutlet weak var sourceAmount: UITextField!
     @IBOutlet weak var sourceCurrency: UITextField!
@@ -44,7 +44,7 @@ extension ConvertVC {
         toCurrency.layer.borderColor = UIColor(red: 197/255.0, green: 197/255.0, blue: 197/255.0, alpha: 1.0).cgColor
     }
 }
-
+*/
 
 
 
