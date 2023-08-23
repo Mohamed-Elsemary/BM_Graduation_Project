@@ -21,12 +21,10 @@ class ConvertVC: UIViewController {
     
     @IBAction func convertBtn(_ sender: Any) {
         
-        
     }
 }
 extension ConvertVC {
-    
-    func setUptextfieldBoarder() {
+    func setupUI() {
         sourceAmount.layer.borderWidth = 0.5
         sourceAmount.layer.cornerRadius = 20
         sourceAmount.layer.borderColor = UIColor(red: 197/255.0, green: 197/255.0, blue: 197/255.0, alpha: 1.0).cgColor
@@ -43,8 +41,6 @@ extension ConvertVC {
         toCurrency.layer.cornerRadius = 20
         toCurrency.layer.borderColor = UIColor(red: 197/255.0, green: 197/255.0, blue: 197/255.0, alpha: 1.0).cgColor
     }
+    
 }
-
-
-
 

@@ -10,6 +10,7 @@
 		D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4D92A9652260046DB53 /* HomeScreenVC.swift */; };
 		D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E12A9699D10046DB53 /* ConvertVC.swift */; };
 		D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E32A9699EA0046DB53 /* CompareVC.swift */; };
+		D976D4E82A96A9010046DB53 /* Customing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E72A96A9010046DB53 /* Customing.swift */; };
 		D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EAE2A93666800061CDD /* AppDelegate.swift */; };
 		D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EB22A93666800061CDD /* ViewController.swift */; };
 		D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB42A93666800061CDD /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		D976D4DF2A968E260046DB53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../Downloads/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		D976D4E12A9699D10046DB53 /* ConvertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertVC.swift; sourceTree = "<group>"; };
 		D976D4E32A9699EA0046DB53 /* CompareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareVC.swift; sourceTree = "<group>"; };
+		D976D4E72A96A9010046DB53 /* Customing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customing.swift; sourceTree = "<group>"; };
 		D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BM_Graduation_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD2EAE2A93666800061CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FD2EB22A93666800061CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,9 +103,18 @@
 			path = "Resources ";
 			sourceTree = "<group>";
 		};
+		D976D4E92A96A9100046DB53 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D976D4E72A96A9010046DB53 /* Customing.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		D9FD2EA22A93666800061CDD = {
 			isa = PBXGroup;
 			children = (
+				D976D4E92A96A9100046DB53 /* Custom */,
 				D976D4DD2A9674190046DB53 /* Resources  */,
 				D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */,
 				D9FD2ECE2A93666900061CDD /* BM_Graduation_ProjectUITests */,
@@ -285,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */,
+				D976D4E82A96A9010046DB53 /* Customing.swift in Sources */,
 				D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */,
 				D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */,
 				D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */,
