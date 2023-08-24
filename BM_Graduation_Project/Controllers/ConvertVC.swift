@@ -15,8 +15,8 @@ class ConvertVC: UIViewController {
     @IBOutlet weak var toCurrency: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+        settingupUI()
+   
     }
     
     @IBAction func convertBtn(_ sender: Any) {
@@ -24,7 +24,7 @@ class ConvertVC: UIViewController {
     }
 }
 extension ConvertVC {
-    func setupUI() {
+    func settingupUI() {
         sourceAmount.layer.borderWidth = 0.5
         sourceAmount.layer.cornerRadius = 20
         sourceAmount.layer.borderColor = UIColor(red: 197/255.0, green: 197/255.0, blue: 197/255.0, alpha: 1.0).cgColor
