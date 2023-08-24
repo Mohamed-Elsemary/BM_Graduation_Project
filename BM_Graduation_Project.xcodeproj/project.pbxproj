@@ -114,8 +114,8 @@
 		D9FD2EA22A93666800061CDD = {
 			isa = PBXGroup;
 			children = (
-				D976D4E92A96A9100046DB53 /* Custom */,
 				D976D4DD2A9674190046DB53 /* Resources  */,
+				D976D4E92A96A9100046DB53 /* Custom */,
 				D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */,
 				D9FD2ECE2A93666900061CDD /* BM_Graduation_ProjectUITests */,
 				D9FD2EAC2A93666800061CDD /* Products */,
@@ -135,14 +135,13 @@
 		D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */ = {
 			isa = PBXGroup;
 			children = (
+				D976D4DB2A9652300046DB53 /* Controllers */,
 				D9FD2EAE2A93666800061CDD /* AppDelegate.swift */,
 				D9FD2EB22A93666800061CDD /* ViewController.swift */,
 				D9FD2EB42A93666800061CDD /* Main.storyboard */,
 				D9FD2EB72A93666900061CDD /* Assets.xcassets */,
 				D9FD2EB92A93666900061CDD /* LaunchScreen.storyboard */,
 				D9FD2EBC2A93666900061CDD /* Info.plist */,
-				D9FD2EC42A93666900061CDD /* BM_Graduation_ProjectTests */,
-				D976D4DB2A9652300046DB53 /* Controllers */,
 			);
 			path = BM_Graduation_Project;
 			sourceTree = "<group>";
@@ -160,6 +159,7 @@
 			children = (
 				D9FD2ECF2A93666900061CDD /* BM_Graduation_ProjectUITests.swift */,
 				D9FD2ED12A93666900061CDD /* BM_Graduation_ProjectUITestsLaunchTests.swift */,
+				D9FD2EC42A93666900061CDD /* BM_Graduation_ProjectTests */,
 			);
 			path = BM_Graduation_ProjectUITests;
 			sourceTree = "<group>";
