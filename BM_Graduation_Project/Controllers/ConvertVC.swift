@@ -24,12 +24,12 @@ class ConvertVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         settingupUI()
-        FavouriteTableview.register(UINib(nibName: "favouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "favouriteCellTableViewCell")
+        FavouriteTableview.register(UINib(nibName: cells.insideFavouriteCell, bundle: nil), forCellReuseIdentifier: cells.insideFavouriteCell)
         
     }
     func gotoFavourite(){
-        let sb = UIStoryboard(name:"Main", bundle:nil) // create instance
-        let favouriteVC = sb.instantiateViewController(withIdentifier: "FavouriteViewController") as! FavouriteViewController
+        let sb = UIStoryboard(name:StoryBoards.main, bundle:nil) // create instance
+        let favouriteVC = sb.instantiateViewController(withIdentifier: ViewControllerIds.favourite) as! FavouriteViewController
         self.present(favouriteVC, animated: true)
     }
     
@@ -44,7 +44,7 @@ class ConvertVC: UIViewController {
 
 extension ConvertVC :settingTableView {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "favouriteCellTableViewCell", for: indexPath) as! favouriteCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cells.insideFavouriteCell, for: indexPath) as! favouriteCellTableViewCell
        cell.imageCurrency.image = array[indexPath.row].image
        cell.currencyRate.text = array[indexPath.row].amount
        cell.currencyName.text = array[indexPath.row].name

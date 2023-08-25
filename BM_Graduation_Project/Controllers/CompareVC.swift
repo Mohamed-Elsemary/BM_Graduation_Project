@@ -16,8 +16,6 @@ class CompareVC: UIViewController {
     @IBOutlet weak var firstCurrency: DropDown!
     
     @IBOutlet weak var secondCurrency: DropDown!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         settingupUI()

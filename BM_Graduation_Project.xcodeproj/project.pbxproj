@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90D031E2A994F62008AA51F /* Constants .swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D031D2A994F62008AA51F /* Constants .swift */; };
 		D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4D92A9652260046DB53 /* HomeScreenVC.swift */; };
 		D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E12A9699D10046DB53 /* ConvertVC.swift */; };
 		D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E32A9699EA0046DB53 /* CompareVC.swift */; };
@@ -21,7 +22,6 @@
 		D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */; };
 		D9EA7F902A99047E00355FD1 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */; };
 		D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EAE2A93666800061CDD /* AppDelegate.swift */; };
-		D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EB22A93666800061CDD /* ViewController.swift */; };
 		D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB42A93666800061CDD /* Main.storyboard */; };
 		D9FD2EB82A93666900061CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB72A93666900061CDD /* Assets.xcassets */; };
 		D9FD2EBB2A93666900061CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB92A93666900061CDD /* LaunchScreen.storyboard */; };
@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90D031D2A994F62008AA51F /* Constants .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants .swift"; sourceTree = "<group>"; };
 		D976D4D92A9652260046DB53 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 		D976D4DE2A9674230046DB53 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		D976D4DF2A968E260046DB53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../Downloads/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BM_Graduation_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD2EAE2A93666800061CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9FD2EB22A93666800061CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9FD2EB52A93666800061CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9FD2EB72A93666900061CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9FD2EBA2A93666900061CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,6 @@
 		D976D4DB2A9652300046DB53 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D9FD2EB22A93666800061CDD /* ViewController.swift */,
 				D976D4D92A9652260046DB53 /* HomeScreenVC.swift */,
 				D976D4E12A9699D10046DB53 /* ConvertVC.swift */,
 				D976D4E32A9699EA0046DB53 /* CompareVC.swift */,
@@ -128,6 +127,7 @@
 			children = (
 				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D976D4E72A96A9010046DB53 /* Customing.swift */,
+				D90D031D2A994F62008AA51F /* Constants .swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -376,9 +376,9 @@
 				D976D4E82A96A9010046DB53 /* Customing.swift in Sources */,
 				D976FE6E2A98EA5C00DF904A /* APIManager.swift in Sources */,
 				D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */,
-				D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */,
 				D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */,
 				D97794F12A97E25E00F098DC /* favouriteCellTableViewCell.swift in Sources */,
+				D90D031E2A994F62008AA51F /* Constants .swift in Sources */,
 				D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */,
 				D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */,
 			);
