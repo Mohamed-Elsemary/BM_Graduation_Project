@@ -18,6 +18,7 @@
 		D97794F82A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97794F62A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib */; };
 		D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97794FA2A9800D800F098DC /* FavouriteViewController.swift */; };
 		D98237932A97C21100349242 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98237922A97C21100349242 /* CurrencyModel.swift */; };
+		D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */; };
 		D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EAE2A93666800061CDD /* AppDelegate.swift */; };
 		D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EB22A93666800061CDD /* ViewController.swift */; };
 		D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB42A93666800061CDD /* Main.storyboard */; };
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +243,9 @@
 			dependencies = (
 			);
 			name = BM_Graduation_Project;
+			packageProductDependencies = (
+				D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */,
+			);
 			productName = BM_Graduation_Project;
 			productReference = D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */;
 			productType = "com.apple.product-type.application";
@@ -314,6 +319,7 @@
 			);
 			mainGroup = D9FD2EA22A93666800061CDD;
 			packageReferences = (
+				D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
 			);
 			productRefGroup = D9FD2EAC2A93666800061CDD /* Products */;
 			projectDirPath = "";
@@ -706,6 +712,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9FD2EA32A93666800061CDD /* Project object */;
 }

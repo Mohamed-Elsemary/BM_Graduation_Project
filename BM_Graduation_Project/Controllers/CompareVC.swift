@@ -6,16 +6,16 @@
 //
 
 import UIKit
-
+import iOSDropDown
 class CompareVC: UIViewController {
 
     @IBOutlet weak var sourceAmount: UITextField!
-    @IBOutlet weak var sourceCurrency: UITextField!
+    @IBOutlet weak var sourceCurrency: DropDown!
     @IBOutlet weak var firstTargetedAmount: UITextField!
     @IBOutlet weak var secondTargetedAmount: UITextField!
-    @IBOutlet weak var firstCurrency: UITextField!
+    @IBOutlet weak var firstCurrency: DropDown!
     
-    @IBOutlet weak var secondCurrency: UITextField!
+    @IBOutlet weak var secondCurrency: DropDown!
     
     
     override func viewDidLoad() {

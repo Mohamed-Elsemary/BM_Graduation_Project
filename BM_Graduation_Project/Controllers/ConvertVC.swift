@@ -6,13 +6,14 @@
 //
 
 import UIKit
+import iOSDropDown
 typealias settingTableView = UITableViewDelegate & UITableViewDataSource
 class ConvertVC: UIViewController {
     
     @IBOutlet weak var sourceAmount: UITextField!
-    @IBOutlet weak var sourceCurrency: UITextField!
+    @IBOutlet weak var sourceCurrency: DropDown!
     @IBOutlet weak var toAmount: UITextField!
-    @IBOutlet weak var toCurrency: UITextField!
+    @IBOutlet weak var toCurrency: DropDown!
     @IBOutlet weak var FavouriteTableview: UITableView!
     @IBOutlet weak var addtoFavouriteBtn: UIButton!
     let array = [CurrencyModel(image: UIImage(named: "USA")!, name: "USD", amount: "1234"),
