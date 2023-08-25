@@ -19,6 +19,7 @@
 		D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97794FA2A9800D800F098DC /* FavouriteViewController.swift */; };
 		D98237932A97C21100349242 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98237922A97C21100349242 /* CurrencyModel.swift */; };
 		D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */; };
+		D9EA7F902A99047E00355FD1 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */; };
 		D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EAE2A93666800061CDD /* AppDelegate.swift */; };
 		D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EB22A93666800061CDD /* ViewController.swift */; };
 		D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB42A93666800061CDD /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 		D97794F62A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = outsideFavouriteCellTableViewCell.xib; sourceTree = "<group>"; };
 		D97794FA2A9800D800F098DC /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		D98237922A97C21100349242 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BM_Graduation_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD2EAE2A93666800061CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FD2EB22A93666800061CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		D9FD2EA22A93666800061CDD = {
 			isa = PBXGroup;
 			children = (
+				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D9FD2EAE2A93666800061CDD /* AppDelegate.swift */,
 				D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */,
 				D9FD2ECE2A93666900061CDD /* BM_Graduation_ProjectUITests */,
@@ -369,6 +372,7 @@
 				D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */,
 				D97794F72A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift in Sources */,
 				D98237932A97C21100349242 /* CurrencyModel.swift in Sources */,
+				D9EA7F902A99047E00355FD1 /* RadioButton.swift in Sources */,
 				D976D4E82A96A9010046DB53 /* Customing.swift in Sources */,
 				D976FE6E2A98EA5C00DF904A /* APIManager.swift in Sources */,
 				D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */,
