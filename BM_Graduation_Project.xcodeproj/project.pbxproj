@@ -126,6 +126,7 @@
 		D976D4E92A96A9100046DB53 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D976D4E72A96A9010046DB53 /* Customing.swift */,
 			);
 			path = Custom;
@@ -177,7 +178,6 @@
 		D9FD2EA22A93666800061CDD = {
 			isa = PBXGroup;
 			children = (
-				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
 				D9FD2EAE2A93666800061CDD /* AppDelegate.swift */,
 				D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */,
 				D9FD2ECE2A93666900061CDD /* BM_Graduation_ProjectUITests */,
