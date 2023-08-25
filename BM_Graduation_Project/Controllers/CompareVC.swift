@@ -22,10 +22,6 @@ class CompareVC: UIViewController {
         super.viewDidLoad()
         settingupUI()
     }
-    
-
- 
-
 }
 extension CompareVC {
     func settingupUI() {
