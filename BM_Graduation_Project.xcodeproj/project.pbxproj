@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42ACF4302A99FDD600AEB680 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 42ACF42F2A99FDD600AEB680 /* Alamofire */; };
+		42ACF4332A99FE1900AEB680 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 42ACF4322A99FE1900AEB680 /* SDWebImageSwiftUI */; };
+		42ACF4372A9A021C00AEB680 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4362A9A021C00AEB680 /* constants.swift */; };
+		42ACF4392A9A072D00AEB680 /* ConvertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4382A9A072D00AEB680 /* ConvertResponse.swift */; };
+		42ACF43B2A9A077300AEB680 /* Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF43A2A9A077300AEB680 /* Convert.swift */; };
+		42ACF43D2A9A138700AEB680 /* CompareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF43C2A9A138700AEB680 /* CompareResponse.swift */; };
+		42ACF43F2A9A139C00AEB680 /* Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF43E2A9A139C00AEB680 /* Compare.swift */; };
+		42ACF4412A9A40E800AEB680 /* FavouriteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4402A9A40E800AEB680 /* FavouriteList.swift */; };
+		42ACF4432A9A419200AEB680 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACF4422A9A419200AEB680 /* Favourite.swift */; };
+		42C1413B2A9C9458001F15FB /* MyFavouriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1413A2A9C9458001F15FB /* MyFavouriteResponse.swift */; };
+		42C1413D2A9C9AFD001F15FB /* MyFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1413C2A9C9AFD001F15FB /* MyFavourite.swift */; };
+		D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4D92A9652260046DB53 /* HomeScreenVC.swift */; };
+		D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E12A9699D10046DB53 /* ConvertVC.swift */; };
+		D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E32A9699EA0046DB53 /* CompareVC.swift */; };
+		D976D4E82A96A9010046DB53 /* Customing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976D4E72A96A9010046DB53 /* Customing.swift */; };
+		D976FE6E2A98EA5C00DF904A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976FE6D2A98EA5C00DF904A /* APIManager.swift */; };
+		D97794F12A97E25E00F098DC /* favouriteCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97794EF2A97E25E00F098DC /* favouriteCellTableViewCell.swift */; };
+		D97794F22A97E25E00F098DC /* favouriteCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97794F02A97E25E00F098DC /* favouriteCellTableViewCell.xib */; };
+		D97794F72A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97794F52A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift */; };
+		D97794F82A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97794F62A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib */; };
+		D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97794FA2A9800D800F098DC /* FavouriteViewController.swift */; };
+		D98237932A97C21100349242 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98237922A97C21100349242 /* CurrencyModel.swift */; };
+		D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */; };
+		D9EA7F902A99047E00355FD1 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */; };
 		D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EAE2A93666800061CDD /* AppDelegate.swift */; };
 		D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FD2EB22A93666800061CDD /* ViewController.swift */; };
 		D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FD2EB42A93666800061CDD /* Main.storyboard */; };
@@ -35,6 +59,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42ACF4362A9A021C00AEB680 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		42ACF4382A9A072D00AEB680 /* ConvertResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertResponse.swift; sourceTree = "<group>"; };
+		42ACF43A2A9A077300AEB680 /* Convert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convert.swift; sourceTree = "<group>"; };
+		42ACF43C2A9A138700AEB680 /* CompareResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareResponse.swift; sourceTree = "<group>"; };
+		42ACF43E2A9A139C00AEB680 /* Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compare.swift; sourceTree = "<group>"; };
+		42ACF4402A9A40E800AEB680 /* FavouriteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteList.swift; sourceTree = "<group>"; };
+		42ACF4422A9A419200AEB680 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		42C1413A2A9C9458001F15FB /* MyFavouriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavouriteResponse.swift; sourceTree = "<group>"; };
+		42C1413C2A9C9AFD001F15FB /* MyFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavourite.swift; sourceTree = "<group>"; };
+		D976D4D92A9652260046DB53 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		D976D4DE2A9674230046DB53 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		D976D4DF2A968E260046DB53 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../Downloads/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		D976D4E12A9699D10046DB53 /* ConvertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertVC.swift; sourceTree = "<group>"; };
+		D976D4E32A9699EA0046DB53 /* CompareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareVC.swift; sourceTree = "<group>"; };
+		D976D4E72A96A9010046DB53 /* Customing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customing.swift; sourceTree = "<group>"; };
+		D976FE6D2A98EA5C00DF904A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D97794EF2A97E25E00F098DC /* favouriteCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouriteCellTableViewCell.swift; sourceTree = "<group>"; };
+		D97794F02A97E25E00F098DC /* favouriteCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = favouriteCellTableViewCell.xib; sourceTree = "<group>"; };
+		D97794F52A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outsideFavouriteCellTableViewCell.swift; sourceTree = "<group>"; };
+		D97794F62A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = outsideFavouriteCellTableViewCell.xib; sourceTree = "<group>"; };
+		D97794FA2A9800D800F098DC /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		D98237922A97C21100349242 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 		D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BM_Graduation_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FD2EAE2A93666800061CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9FD2EB22A93666800061CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ACF4332A99FE1900AEB680 /* SDWebImageSwiftUI in Frameworks */,
+				D9EA7F8E2A98FD0200355FD1 /* iOSDropDown in Frameworks */,
+				42ACF4302A99FDD600AEB680 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +124,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D976D4DB2A9652300046DB53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9FD2EB22A93666800061CDD /* ViewController.swift */,
+				D976D4D92A9652260046DB53 /* HomeScreenVC.swift */,
+				D976D4E12A9699D10046DB53 /* ConvertVC.swift */,
+				D976D4E32A9699EA0046DB53 /* CompareVC.swift */,
+				D97794FA2A9800D800F098DC /* FavouriteViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D976D4DD2A9674190046DB53 /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				D976D4DE2A9674230046DB53 /* Poppins-Regular.ttf */,
+				D976D4DF2A968E260046DB53 /* Montserrat-VariableFont_wght.ttf */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		D976D4E92A96A9100046DB53 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				D9EA7F8F2A99047E00355FD1 /* RadioButton.swift */,
+				D976D4E72A96A9010046DB53 /* Customing.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		D976FE6C2A98EA3900DF904A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D976FE6D2A98EA5C00DF904A /* APIManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D97794F32A97EAE800F098DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D98237922A97C21100349242 /* CurrencyModel.swift */,
+				42ACF4382A9A072D00AEB680 /* ConvertResponse.swift */,
+				42ACF43A2A9A077300AEB680 /* Convert.swift */,
+				42ACF43C2A9A138700AEB680 /* CompareResponse.swift */,
+				42ACF43E2A9A139C00AEB680 /* Compare.swift */,
+				42ACF4402A9A40E800AEB680 /* FavouriteList.swift */,
+				42ACF4422A9A419200AEB680 /* Favourite.swift */,
+				42C1413A2A9C9458001F15FB /* MyFavouriteResponse.swift */,
+				42C1413C2A9C9AFD001F15FB /* MyFavourite.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D97794F42A97EB0600F098DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D97999782A97A56B00F04163 /* FavouriteCell */,
+				D97794F92A97FE8200F098DC /* OutsideFavouriteCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D97794F92A97FE8200F098DC /* OutsideFavouriteCell */ = {
+			isa = PBXGroup;
+			children = (
+				D97794F52A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift */,
+				D97794F62A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib */,
+			);
+			path = OutsideFavouriteCell;
+			sourceTree = "<group>";
+		};
+		D97999782A97A56B00F04163 /* FavouriteCell */ = {
+			isa = PBXGroup;
+			children = (
+				D97794EF2A97E25E00F098DC /* favouriteCellTableViewCell.swift */,
+				D97794F02A97E25E00F098DC /* favouriteCellTableViewCell.xib */,
+			);
+			path = FavouriteCell;
+			sourceTree = "<group>";
+		};
 		D9FD2EA22A93666800061CDD = {
 			isa = PBXGroup;
 			children = (
+				D9FD2EAE2A93666800061CDD /* AppDelegate.swift */,
 				D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */,
-				D9FD2EC42A93666900061CDD /* BM_Graduation_ProjectTests */,
 				D9FD2ECE2A93666900061CDD /* BM_Graduation_ProjectUITests */,
+				D976D4E92A96A9100046DB53 /* Custom */,
+				D976D4DD2A9674190046DB53 /* Resources  */,
 				D9FD2EAC2A93666800061CDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,12 +230,15 @@
 		D9FD2EAD2A93666800061CDD /* BM_Graduation_Project */ = {
 			isa = PBXGroup;
 			children = (
-				D9FD2EAE2A93666800061CDD /* AppDelegate.swift */,
-				D9FD2EB22A93666800061CDD /* ViewController.swift */,
+				D976FE6C2A98EA3900DF904A /* Networking */,
+				D97794F32A97EAE800F098DC /* Model */,
+				D97794F42A97EB0600F098DC /* View */,
+				D976D4DB2A9652300046DB53 /* Controllers */,
 				D9FD2EB42A93666800061CDD /* Main.storyboard */,
 				D9FD2EB72A93666900061CDD /* Assets.xcassets */,
 				D9FD2EB92A93666900061CDD /* LaunchScreen.storyboard */,
 				D9FD2EBC2A93666900061CDD /* Info.plist */,
+				42ACF4362A9A021C00AEB680 /* constants.swift */,
 			);
 			path = BM_Graduation_Project;
 			sourceTree = "<group>";
@@ -120,6 +256,7 @@
 			children = (
 				D9FD2ECF2A93666900061CDD /* BM_Graduation_ProjectUITests.swift */,
 				D9FD2ED12A93666900061CDD /* BM_Graduation_ProjectUITestsLaunchTests.swift */,
+				D9FD2EC42A93666900061CDD /* BM_Graduation_ProjectTests */,
 			);
 			path = BM_Graduation_ProjectUITests;
 			sourceTree = "<group>";
@@ -140,6 +277,11 @@
 			dependencies = (
 			);
 			name = BM_Graduation_Project;
+			packageProductDependencies = (
+				D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */,
+				42ACF42F2A99FDD600AEB680 /* Alamofire */,
+				42ACF4322A99FE1900AEB680 /* SDWebImageSwiftUI */,
+			);
 			productName = BM_Graduation_Project;
 			productReference = D9FD2EAB2A93666800061CDD /* BM_Graduation_Project.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +354,11 @@
 				Base,
 			);
 			mainGroup = D9FD2EA22A93666800061CDD;
+			packageReferences = (
+				D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				42ACF42E2A99FDD600AEB680 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				42ACF4312A99FE1900AEB680 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = D9FD2EAC2A93666800061CDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,9 +375,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97794F82A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.xib in Resources */,
 				D9FD2EBB2A93666900061CDD /* LaunchScreen.storyboard in Resources */,
 				D9FD2EB82A93666900061CDD /* Assets.xcassets in Resources */,
 				D9FD2EB62A93666800061CDD /* Main.storyboard in Resources */,
+				D97794F22A97E25E00F098DC /* favouriteCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +404,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ACF4432A9A419200AEB680 /* Favourite.swift in Sources */,
+				D976D4E42A9699EA0046DB53 /* CompareVC.swift in Sources */,
+				D97794F72A97FE7A00F098DC /* outsideFavouriteCellTableViewCell.swift in Sources */,
+				D98237932A97C21100349242 /* CurrencyModel.swift in Sources */,
+				D9EA7F902A99047E00355FD1 /* RadioButton.swift in Sources */,
+				42ACF4412A9A40E800AEB680 /* FavouriteList.swift in Sources */,
+				D976D4E82A96A9010046DB53 /* Customing.swift in Sources */,
+				D976FE6E2A98EA5C00DF904A /* APIManager.swift in Sources */,
+				42C1413D2A9C9AFD001F15FB /* MyFavourite.swift in Sources */,
+				42ACF43D2A9A138700AEB680 /* CompareResponse.swift in Sources */,
+				D976D4E22A9699D10046DB53 /* ConvertVC.swift in Sources */,
+				42ACF43B2A9A077300AEB680 /* Convert.swift in Sources */,
 				D9FD2EB32A93666800061CDD /* ViewController.swift in Sources */,
 				D9FD2EAF2A93666800061CDD /* AppDelegate.swift in Sources */,
+				42ACF4392A9A072D00AEB680 /* ConvertResponse.swift in Sources */,
+				42C1413B2A9C9458001F15FB /* MyFavouriteResponse.swift in Sources */,
+				D97794F12A97E25E00F098DC /* favouriteCellTableViewCell.swift in Sources */,
+				D97794FB2A9800D800F098DC /* FavouriteViewController.swift in Sources */,
+				D976D4DA2A9652260046DB53 /* HomeScreenVC.swift in Sources */,
+				42ACF4372A9A021C00AEB680 /* constants.swift in Sources */,
+				42ACF43F2A9A139C00AEB680 /* Compare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +760,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42ACF42E2A99FDD600AEB680 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		42ACF4312A99FE1900AEB680 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42ACF42F2A99FDD600AEB680 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42ACF42E2A99FDD600AEB680 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		42ACF4322A99FE1900AEB680 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42ACF4312A99FE1900AEB680 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		D9EA7F8D2A98FD0200355FD1 /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D9EA7F8C2A98FD0200355FD1 /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D9FD2EA32A93666800061CDD /* Project object */;
 }
