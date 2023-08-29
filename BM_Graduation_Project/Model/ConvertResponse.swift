@@ -8,6 +8,7 @@
 import Foundation
 struct ConvertResponse: Codable {
     let statusCode: Int?
+    let status: String?
     let data: Convert?
 }
 

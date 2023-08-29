@@ -20,6 +20,9 @@ class CompareVC: UIViewController {
     var compareArr: Compare?
     override func viewDidLoad() {
         super.viewDidLoad()
+    //    sourceCurrency.text = " " + getFlagEmoji(flag: "EGP") + "  EGP"
+      //  firstCurrency.text = " " + getFlagEmoji(flag: "USD") + "  USD"
+        //secondCurrency.text = " " + getFlagEmoji(flag: "EUR") + "  EUR"
         settingupUI()
          gettData()
        
@@ -31,7 +34,17 @@ class CompareVC: UIViewController {
 }
 extension CompareVC {
     func getCompareData() {
-        APIManager.getCompareData(data: DataToCompare(amount: sourceAmount.text ?? "", base: sourceCurrency.text ?? "", target1: firstCurrency.text ?? "", target2: secondCurrency.text ?? "")) { error, data in
+//        APIManager.getCompareData(data: DataToCompare(amount: sourceAmount.text ?? "", base: sourceCurrency.text ?? "", target1: firstCurrency.text ?? "", target2: secondCurrency.text ?? ""))
+                guard let base = sourceCurrency.text , let target1 = firstCurrency.text,let target2 = secondCurrency.text else {
+                    fatalError()
+                }
+                let startIndexbase = base.index(after: base.startIndex)
+                let substringbase = base[startIndexbase..<base.endIndex]
+                let startIndextarget1 = target1.index(after: target1.startIndex)
+                let substringtarget1 = target1[startIndextarget1..<target1.endIndex]
+                let startIndextarget2 = target2.index(after: target2.startIndex)
+                let substringtarget2 = target2[startIndextarget2..<target2.endIndex]
+               APIManager.getCompareData(data: DataToCompare(amount: sourceAmount.text ?? "", base: String(substringbase), target1: String(substringtarget1), target2: String(substringtarget2))){ error, data in
             if let error = error {
                 print(error)
                 return

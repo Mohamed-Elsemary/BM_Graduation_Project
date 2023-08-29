@@ -23,10 +23,12 @@ class ConvertVC: UIViewController {
     var favlist: MyFavourite?
     override func viewDidLoad() {
         super.viewDidLoad()
+//        sourceCurrency.text = " " + getFlagEmoji(flag: "EGP") + "EGP"
+//        toCurrency.text = " " + getFlagEmoji(flag: "USD") + "USD"
         settingupUI()
         FavouriteTableview.register(UINib(nibName: "favouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "favouriteCellTableViewCell")
         gettData()
-        
+//      getRates()
     }
     func gotoFavourite(){
         
@@ -54,37 +56,18 @@ extension ConvertVC: CurrencyFavoriting {
     }
 }
 extension ConvertVC {
-//    func getRates() {
-//        APIManager.getRatesData(data: Rates(base: inst.currencyRate.text ?? "")) { error, ratesArr in
-//            if let error = error {
-//                print(error)
-//                return
-//            }
-//
-//            if let rates = ratesArr?.conversionRates {
-//                DispatchQueue.main.async {
-//                    self.favlist = ratesArr
-//                    self.inst.currencyRate.text = "\(rates)"
-//                }
-//            }
-//        }
-//    }
-//   func getRates() {
-//       APIManager.getRatesData(data: Rates(base: inst.currencyRate.text ?? "")) { error, ratesArr in
-//           if let error = error {
-//               print(error)
-//               return
-//           }
-//           if let data = ratesArr {
-//               DispatchQueue.main.async {
-//                    self.favlist = ratesArr
-//                   self.inst.currencyRate.text = "\(self.favlist?.conversionRates ?? 0.0)"
-//               }
-//
-//           }
-//       }
     func getConvertData() {
-        APIManager.getConvertData(data: DataToConvert(amount: sourceAmount.text ?? "", base: sourceCurrency.text ?? "", target: toCurrency.text ?? "")) { error, data in
+
+//        APIManager.getConvertData(data: DataToConvert(amount: sourceAmount.text ?? "", base: sourceCurrency.text ?? "", target: toCurrency.text ?? ""))
+//            handeling sime problems related to backend response
+        guard let base = sourceCurrency.text , let target = toCurrency.text  else {
+            fatalError()
+        }
+            let startIndexbase = base.index(after: base.startIndex)
+            let substringbase = base[startIndexbase..<base.endIndex]
+            let startIndextarget = target.index(after: target.startIndex)
+            let substringtarget = target[startIndextarget..<target.endIndex]
+            APIManager.getConvertData(data: DataToConvert(amount: sourceAmount.text ?? "", base: String(substringbase), target: String(substringtarget))){ error, data in
             if let error = error {
                 print(error)
                 return
