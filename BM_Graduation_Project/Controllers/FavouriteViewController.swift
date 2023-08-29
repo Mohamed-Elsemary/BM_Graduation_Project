@@ -29,7 +29,7 @@ class FavouriteViewController: UIViewController {
         super.viewDidLoad()
         newFavouriteTableView.delegate = self
         newFavouriteTableView.dataSource = self
-        newFavouriteTableView.register(UINib(nibName: "outsideFavouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "outsideFavouriteCellTableViewCell")
+        newFavouriteTableView.register(UINib(nibName: cells.outsideFavouriteCell, bundle: nil), forCellReuseIdentifier: cells.outsideFavouriteCell)
         
         getData()
     }
@@ -43,7 +43,7 @@ class FavouriteViewController: UIViewController {
 
 extension FavouriteViewController :settingTableView {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "outsideFavouriteCellTableViewCell", for: indexPath) as! outsideFavouriteCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cells.outsideFavouriteCell, for: indexPath) as! outsideFavouriteCellTableViewCell
         cell.currN.text = favArr[indexPath.row].name
         cell.currencyName.text = favArr[indexPath.row].code
         let image = favArr[indexPath.row].flagURL

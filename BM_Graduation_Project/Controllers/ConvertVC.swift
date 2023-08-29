@@ -26,14 +26,14 @@ class ConvertVC: UIViewController {
 //        sourceCurrency.text = " " + getFlagEmoji(flag: "EGP") + "EGP"
 //        toCurrency.text = " " + getFlagEmoji(flag: "USD") + "USD"
         settingupUI()
-        FavouriteTableview.register(UINib(nibName: "favouriteCellTableViewCell", bundle: nil), forCellReuseIdentifier: "favouriteCellTableViewCell")
+        FavouriteTableview.register(UINib(nibName: cells.insideFavouriteCell, bundle: nil), forCellReuseIdentifier:cells.insideFavouriteCell)
         gettData()
 //      getRates()
     }
     func gotoFavourite(){
         
-        let sb = UIStoryboard(name:"Main", bundle:nil) // create instance
-        let favouriteVC = sb.instantiateViewController(withIdentifier: "FavouriteViewController") as! FavouriteViewController
+        let sb = UIStoryboard(name:StoryBoards.main, bundle:nil) // create instance
+        let favouriteVC = sb.instantiateViewController(withIdentifier: ViewControllerIds.favourite) as! FavouriteViewController
         favouriteVC.delegate = self
         self.present(favouriteVC, animated: true)
         
@@ -121,7 +121,7 @@ extension ConvertVC {
     extension ConvertVC :settingTableView {
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "favouriteCellTableViewCell", for: indexPath) as! favouriteCellTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: cells.insideFavouriteCell, for: indexPath) as! favouriteCellTableViewCell
             let currency = favArr[indexPath.row]
             cell.imageCurrency.sd_setImage(with: URL(string: currency.flagURL!))
             cell.currencyName.text = currency.name
