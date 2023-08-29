@@ -9,38 +9,38 @@ class APIManager {
     static func getRatesData(data: Rates,completion: @escaping (_ error: Error?,_ ratesArr: MyFavourite?) -> Void){
         
         let parameters: [String: Any] = [ "key": data.base ]
-       AF.request(URLs.favourite, method: HTTPMethod.get, parameters: parameters, encoding: JSONEncoding.default, headers: nil) .response { response in
-           
-           guard response.error == nil else {
-               print (response.error!)
-               completion (response.error!, nil)
-               return
-           }
-           guard let data = response.data  else{
-               print(NetworkingError.errorMessage)
-               return
-           }
-           
-           do {
-               let decoder = JSONDecoder()
-               let ratesRes  = try decoder.decode(MyFavouriteResponse.self, from: data)
-               guard let ratesData = ratesRes.data else {
-                   fatalError()
-                   
-               }
-               print(ratesData)
-               completion(nil,ratesData)
-           }
-           catch let error {
-               print(error)
-               completion(error, nil)
-           }
-           
-       }
-       
-   }
-
-     static func getCompareData(data: DataToCompare, completion: @escaping (_ error: Error?,_ comArr: Compare?) -> Void){
+        AF.request(URLs.favourite, method: HTTPMethod.get, parameters: parameters, encoding: JSONEncoding.default, headers: nil) .response { response in
+            
+            guard response.error == nil else {
+                print (response.error!)
+                completion (response.error!, nil)
+                return
+            }
+            guard let data = response.data  else{
+                print(NetworkingError.errorMessage)
+                return
+            }
+            
+            do {
+                let decoder = JSONDecoder()
+                let ratesRes  = try decoder.decode(MyFavouriteResponse.self, from: data)
+                guard let ratesData = ratesRes.data else {
+                    fatalError()
+                    
+                }
+                print(ratesData)
+                completion(nil,ratesData)
+            }
+            catch let error {
+                print(error)
+                completion(error, nil)
+            }
+            
+        }
+        
+    }
+    
+    static func getCompareData(data: DataToCompare, completion: @escaping (_ error: Error?,_ comArr: Compare?) -> Void){
         let parameters: [String: Any] = ["amount": data.amount, "base": data.base, "target1": data.target1, "target2" :data.target2]
         AF.request(URLs.compare, method: HTTPMethod.get, parameters: parameters, encoding: URLEncoding.default, headers: nil) .response { response in
             
@@ -72,7 +72,7 @@ class APIManager {
         }
         
     }
-   
+    
     static func getConvertData(data: DataToConvert,completion: @escaping (_ error: Error?,_ convArr: Convert?) -> Void){
         
         let parameters: [String: Any] = ["amount": data.amount, "base": data.base, "target": data.target]
@@ -137,7 +137,7 @@ class APIManager {
             }
             
         }
-       
+        
         
         
         

@@ -8,14 +8,12 @@
 import UIKit
 import iOSDropDown
 class CompareVC: UIViewController {
-
     @IBOutlet weak var sourceAmount: UITextField!
     @IBOutlet weak var sourceCurrency: DropDown!
     @IBOutlet weak var firstTargetedAmount: UITextField!
     @IBOutlet weak var secondTargetedAmount: UITextField!
     @IBOutlet weak var firstCurrency: DropDown!
     @IBOutlet weak var secondCurrency: DropDown!
-
     var favArr: [Favourite] = []
     var compareArr: Compare?
     override func viewDidLoad() {
@@ -25,7 +23,6 @@ class CompareVC: UIViewController {
         //secondCurrency.text = " " + getFlagEmoji(flag: "EUR") + "  EUR"
         settingupUI()
          gettData()
-       
     }
     
     @IBAction func compareBtn(_ sender: UIButton) {

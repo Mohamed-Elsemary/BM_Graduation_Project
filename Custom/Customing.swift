@@ -1,14 +1,11 @@
-//
 //  Customing.swift
 //  BM_Graduation_Project
 //
 //  Created by mohamed on 23/08/2023.
-//
 import UIKit
 class Customing: UISegmentedControl{
     private let segmentInset: CGFloat = 5       //your inset amount
     private let segmentImage: UIImage? = UIImage(color: UIColor.white)    //your color
-
     override func layoutSubviews(){
         super.layoutSubviews()
 
